@@ -18,36 +18,47 @@ OpenStream is a video streaming platform developed based on the OneBitFlix proje
 
 ## Prerequisites
 
-- Node.js
-- PostgreSQL
+- [Node.js](https://nodejs.org/)
+- [PostgreSQL](https://www.postgresql.org/)
 
 ## Installation
 
 1. Clone the repository:
-  - git clone https://github.com/ThalisonBotz/OpenStream
-  - cd openstream
+  ```sh
+  git clone https://github.com/ThalisonBotz/OpenStream
+  cd openstream
+  ```
 
 2. Install dependencies:
-  - npm install
+  ```sh
+  npm install
+  ```
 
 3. Configure the database:
-  - Ensure PostgreSQL is running and create a database named openstream_development.
+  - Ensure PostgreSQL is running and create a database named `openstream_development`.
   - Update the database configuration in `sequelizeCli.js` if necessary.
 
 4. Run database migrations:
-  - npx sequelize-cli db:migrate
+  ```sh
+  npx sequelize-cli db:migrate
+  ```
 
 5. Seed the database:
-  - npx sequelize-cli db:seed:all
+  ```sh
+  npx sequelize-cli db:seed:all
+  ```
 
 ## Running the Application
 
 1. Start the development server:
-  - npm run dev The server will be running on `http://localhost:3000`.
+  ```sh
+  npm run dev
+  ```
+  The server will be running on `http://localhost:3000`.
 
 ## Admin Panel
 
-1. Access the AdminJS panel at
+1. Access the AdminJS panel at:
   - `http://localhost:3000/admin`
 
 ## Contributing
@@ -58,7 +69,7 @@ Contributions are welcome! Please fork the repository and submit a pull request.
 
 This project is licensed under the MIT License.
 
-# References
+## References
 
-- [onebitcode](https://comunidade.onebitcode.com/) - For providing the course and inspiration for this project
-- [onebitflix](https://comunidade.onebitcode.com/c/projetos/sections/360131/lessons/1337441) - The original project this is based on.
+- [OneBitCode](https://comunidade.onebitcode.com/) - For providing the course and inspiration for this project
+- [OneBitFlix](https://comunidade.onebitcode.com/c/projetos/sections/360131/lessons/1337441) - The original project this is based on.
