@@ -43,13 +43,12 @@ OpenStream is a video streaming platform developed based on the OneBitFlix proje
 ## Running the Application
 
 1. Start the development server:
-  - npm run dev
-The server will be running on `http://localhost:3000`.
+  - npm run dev The server will be running on `http://localhost:3000`.
 
 ## Admin Panel
 
 1. Access the AdminJS panel at
-`http://localhost:3000/admin`
+  - `http://localhost:3000/admin`
 
 ## Contributing
 
